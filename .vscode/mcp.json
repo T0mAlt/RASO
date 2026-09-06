@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "unity-mcp": {
+      "type": "stdio",
+      "command": "C:\\Users\\user\\.unity\\relay\\relay_win.exe",
+      "args": [
+        "--mcp",
+        "--project-path",
+        "D:\\Play4\\game4"
+      ]
+    }
+  }
+}
