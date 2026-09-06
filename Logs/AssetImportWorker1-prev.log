@@ -1,21 +1,21 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 14188 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-09-06T08:30:26.4568901Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-09-06T08:57:19.2033Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-06T08:30:26Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24428, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-09-06T08:57:19Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19152, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              fe8f38512f0241f5af2a620fd9bde848
-  Correlation Id:          98f06ed0a93424e691d5f32faeb52a39
-  External correlation Id: 5123420309960958884
+  Session Id:              4dc48820055c4070a02ed3b0c39cebe0
+  Correlation Id:          fe403366f82ed7eab7cb0cd09d5b3a1d
+  External correlation Id: 6693493725325771471
   Machine Id:              Z+nX2y6ZWSikMPl3VXQ/kTlWk2M=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2026-09-06T08:30:26.5031707Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2026-09-06T08:57:19.2548357Z"
 [Licensing::Module] Licensing Background thread has ended after 0.05s
 
 COMMAND LINE ARGUMENTS:
@@ -30,7 +30,7 @@ D:/Play4/game4
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59477
+49955
 -licensingIpc
 LicenseClient-user
 -job-worker-count
@@ -78,14 +78,14 @@ D:/Play4/game4
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [29656]  Target information:
+Player connection [8688]  Target information:
 
-Player connection [29656]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 1668206798 [EditorId] 1668206798 [Version] 1048832 [Id] WindowsEditor(7,TOM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8688]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 2949230203 [EditorId] 2949230203 [Version] 1048832 [Id] WindowsEditor(7,TOM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29656]  * "[IP] 10.1.1.211 [Port] 0 [Flags] 2 [Guid] 1668206798 [EditorId] 1668206798 [Version] 1048832 [Id] WindowsEditor(7,TOM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8688]  * "[IP] 10.1.1.211 [Port] 0 [Flags] 2 [Guid] 2949230203 [EditorId] 2949230203 [Version] 1048832 [Id] WindowsEditor(7,TOM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29656] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8688] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8688] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -97,8 +97,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.57 ms.
+Refreshing native plugins compatible for Editor in 101.44 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.79 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Play4/game4/Assets
@@ -113,7 +113,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -126,45 +126,45 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.008271 seconds.
-- Loaded All Assemblies, in  0.469 seconds
+Registered in 0.356258 seconds.
+- Loaded All Assemblies, in  4.411 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 238 ms
+Android Extension - Scanning For ADB Devices 270 ms
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.705 seconds
-Domain Reload Profiling: 1170ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 5251ms
+	BeginReloadAssembly (2925ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (142ms)
+	initialDomainReloadingComplete (414ms)
+	LoadAllAssembliesAndSetupDomain (1008ms)
+		LoadAssemblies (2933ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (991ms)
+			TypeCache.Refresh (989ms)
+				TypeCache.ScanAssembly (830ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (706ms)
+	FinalizeReload (844ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (650ms)
+		SetupLoadedEditorAssemblies (786ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (336ms)
+			InitializePlatformSupportModulesInManaged (468ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (152ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -176,12 +176,15 @@ Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.235 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
+- Loaded All Assemblies, in  3.011 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-game4
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -189,160 +192,207 @@ Package Manager log level set to [2]
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.979 seconds
-Domain Reload Profiling: 3208ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  2.697 seconds
+Domain Reload Profiling: 5703ms
+	BeginReloadAssembly (233ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (921ms)
-		LoadAssemblies (493ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (2628ms)
+		LoadAssemblies (1919ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (531ms)
-			TypeCache.Refresh (427ms)
-				TypeCache.ScanAssembly (401ms)
-			BuildScriptInfoCaches (82ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1979ms)
+		AnalyzeDomain (843ms)
+			TypeCache.Refresh (740ms)
+				TypeCache.ScanAssembly (713ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2698ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1741ms)
+		SetupLoadedEditorAssemblies (1881ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (233ms)
-			ProcessInitializeOnLoadAttributes (1123ms)
-			ProcessInitializeOnLoadMethodAttributes (355ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9821 unused Assets / (22.8 MB). Loaded Objects now: 10641.
-Memory consumption went from 199.8 MB to 177.0 MB.
-Total: 32.798100 ms (FindLiveObjects: 1.577400 ms CreateObjectMapping: 1.299600 ms MarkObjects: 19.132400 ms  DeleteObjects: 10.785200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 94702.813783 seconds.
-  path: Assets/Models/root_still.anim
-  artifactKey: Guid(6ecb115d28908224cac54727019444ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Models/root_still.anim using Guid(6ecb115d28908224cac54727019444ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b46240a141bb5cc835d59cd0258a9d4f') in 0.0908769 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.089 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.708 seconds
-Domain Reload Profiling: 2797ms
-	BeginReloadAssembly (279ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (104ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (702ms)
-		LoadAssemblies (449ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (353ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (326ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1708ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1488ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (215ms)
-			ProcessInitializeOnLoadAttributes (773ms)
-			ProcessInitializeOnLoadMethodAttributes (473ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (1245ms)
+			ProcessInitializeOnLoadMethodAttributes (383ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9817 unused Assets / (23.6 MB). Loaded Objects now: 10659.
-Memory consumption went from 205.0 MB to 181.4 MB.
-Total: 36.183300 ms (FindLiveObjects: 1.522300 ms CreateObjectMapping: 1.808100 ms MarkObjects: 20.772200 ms  DeleteObjects: 12.078100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 463.153866 seconds.
-  path: Assets/Models/ship/Mat_StylShip_Decks.mat
-  artifactKey: Guid(c5f74872129c5d64e9530adadc90cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/ship/Mat_StylShip_Decks.mat using Guid(c5f74872129c5d64e9530adadc90cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14bee711f62e1a2b01cd2c902a62a9e5') in 0.6382246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 9938 unused Assets / (22.1 MB). Loaded Objects now: 10767.
+Memory consumption went from 200.6 MB to 178.5 MB.
+Total: 40.508500 ms (FindLiveObjects: 1.696800 ms CreateObjectMapping: 2.450200 ms MarkObjects: 25.621400 ms  DeleteObjects: 10.738100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Models/ship/Mat_StylShip_SailsRope.mat
-  artifactKey: Guid(88587020f0258ca4bb44aeae84d8234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/ship/Mat_StylShip_SailsRope.mat using Guid(88587020f0258ca4bb44aeae84d8234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f7f2a91acf3d751dcf60023a70ab281') in 0.0184713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 140.595228 seconds.
+  path: Assets/Models/ship/Test
+  artifactKey: Guid(5a163454f60be354a8ca558bc971eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test using Guid(5a163454f60be354a8ca558bc971eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e5a6b3414883f91dd3963576aadf581') in 0.0078477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.230885 seconds.
-  path: Assets/Models/ship/Mat_StylShip_Elements.mat
-  artifactKey: Guid(7e34f5616654c8448908a881c51f1d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Models/ship/Mat_StylShip_Elements.mat using Guid(7e34f5616654c8448908a881c51f1d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0faf2037e08836a42a50623eb53a3d5') in 0.0852694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Models/root_Walk.anim
-  artifactKey: Guid(c8c2a434d337a4a4db13830e5bbce535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Models/root_Walk.anim using Guid(c8c2a434d337a4a4db13830e5bbce535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2155f8cccf2ea29e2f11c777398b2be5') in 0.0367291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/ship/Mat_StylShip_Masts.mat
-  artifactKey: Guid(242470b292dcca54a827f9fa82afa9e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Models/ship/Mat_StylShip_Masts.mat using Guid(242470b292dcca54a827f9fa82afa9e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be68e09ca004a24b920853c7100a7087') in 0.0169157 seconds
+  Time since last request: 7.763379 seconds.
+  path: Assets/Models/ship/Test/Mat_StylShip_Decks.mat
+  artifactKey: Guid(624340930f508bc4b864a41ca4c6c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/Mat_StylShip_Decks.mat using Guid(624340930f508bc4b864a41ca4c6c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f23d944a3d6b5b3de5bd6d19b0a84c22') in 0.6533775 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Models/ship/Mat_StylShip_Decks.mat
-  artifactKey: Guid(c5f74872129c5d64e9530adadc90cde5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Models/ship/Mat_StylShip_Decks.mat using Guid(c5f74872129c5d64e9530adadc90cde5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa4cd4453d53683fcef3767377c622cb') in 0.0105905 seconds
+  path: Assets/Models/ship/Test/Mat_StylShip_Masts.mat
+  artifactKey: Guid(a37cee2df2018fa45ba6f7aa80fe92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/Mat_StylShip_Masts.mat using Guid(a37cee2df2018fa45ba6f7aa80fe92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '849e564705e7792fdd2e4e2304f1d094') in 0.0176323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147133 seconds.
+  path: Assets/Models/ship/Test/Mat_StylShip_Decks.mat
+  artifactKey: Guid(624340930f508bc4b864a41ca4c6c751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/Mat_StylShip_Decks.mat using Guid(624340930f508bc4b864a41ca4c6c751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c7e9b034b0cbb485bda1f15c4cb6b74') in 0.0843722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/ship/Test/Mat_StylShip_Masts.mat
+  artifactKey: Guid(a37cee2df2018fa45ba6f7aa80fe92a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/Mat_StylShip_Masts.mat using Guid(a37cee2df2018fa45ba6f7aa80fe92a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '818de77a18cd5ec80130b93b05ac7c2e') in 0.0183168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.783681 seconds.
+  path: Assets/Models/ship/Test/textures
+  artifactKey: Guid(b7d5e99237241e14392c93ddd8bf5905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/textures using Guid(b7d5e99237241e14392c93ddd8bf5905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c4b12e2f31977396364b856ec3b028f') in 0.0170628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.523881 seconds.
+  path: Assets/Models/ship/Test/textures/Image_5.png
+  artifactKey: Guid(c10c0b6100ffe944ab4bc012474eafbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/textures/Image_5.png using Guid(c10c0b6100ffe944ab4bc012474eafbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '90fa9aac528fbefb38718c17c3a258ae') in 0.0369759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.960794 seconds.
+  path: Assets/Models/ship/Test/Image_4.png
+  artifactKey: Guid(9f967393dcb8e884c80f3b02753b2c07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/Image_4.png using Guid(9f967393dcb8e884c80f3b02753b2c07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a85ebebf969fa661f8d65fdec27ba217') in 0.0526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.778351 seconds.
+  path: Assets/Models/ship/Test/textures/Image_12.png
+  artifactKey: Guid(590c9ef6e258e144997da90f3d044f92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/textures/Image_12.png using Guid(590c9ef6e258e144997da90f3d044f92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81d4134099262381139b5aab4d79cdfa') in 0.0181577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/ship/Test/textures/Image_15.png
+  artifactKey: Guid(0cc70f08548665a40a267fc3de29af1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/textures/Image_15.png using Guid(0cc70f08548665a40a267fc3de29af1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1eeb0586bd6d265230c79c2ccb14f385') in 0.0146658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.481352 seconds.
+  path: Assets/Models/ship/Test/textures/Image_13.png
+  artifactKey: Guid(343775246277dd64e9b5b0c555fce4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/textures/Image_13.png using Guid(343775246277dd64e9b5b0c555fce4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dd1a0b7b7813582c09a9278df3521cd') in 0.0175389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/ship/Test/textures/Image_15.png
+  artifactKey: Guid(0cc70f08548665a40a267fc3de29af1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/textures/Image_15.png using Guid(0cc70f08548665a40a267fc3de29af1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c34b8801375ae79b9c3e999189646fc') in 0.0175305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362748 seconds.
+  path: Assets/Models/ship/Test/Mat_StylShip_ShipHull/Image_3.png
+  artifactKey: Guid(dd988762656f66440acf130399417e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/Mat_StylShip_ShipHull/Image_3.png using Guid(dd988762656f66440acf130399417e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '108052ecfedfffe2ad9dff1adbb2ac1c') in 0.0198222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.804434 seconds.
+  path: Assets/Models/ship/Test/Image_12.png
+  artifactKey: Guid(590c9ef6e258e144997da90f3d044f92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/Image_12.png using Guid(590c9ef6e258e144997da90f3d044f92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2148bbfaa2a5395d26f015e7b972821b') in 0.013615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.148526 seconds.
+  path: Assets/Models/ship/Test/Mat_StylShip_ShipHull.mat
+  artifactKey: Guid(8fa7b3dc06a0d1e42870c199d8ec36d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/Mat_StylShip_ShipHull.mat using Guid(8fa7b3dc06a0d1e42870c199d8ec36d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3dd522a93279777e20988ca5a38c1a0') in 6.9545746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Models/ship/Test/ship p4i.blend
+  artifactKey: Guid(ef6d0206a5ec81649954efad0af9308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/ship p4i.blend using Guid(ef6d0206a5ec81649954efad0af9308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe65c8529b7672b289c8382e816327a') in 4.5861741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 513
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.776979 seconds.
+  path: Assets/Models/ship/Test/Mat_StylShip_SailsRope/Image_15.png
+  artifactKey: Guid(0cc70f08548665a40a267fc3de29af1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/Mat_StylShip_SailsRope/Image_15.png using Guid(0cc70f08548665a40a267fc3de29af1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7514590822cdcb881380f98dedad42fe') in 0.0188086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.798173 seconds.
+  path: Assets/Models/ship/Test/textures/Image_20.png
+  artifactKey: Guid(609f3be53ea955245b964a2b72271941) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/textures/Image_20.png using Guid(609f3be53ea955245b964a2b72271941) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '710148f3012cc7a02dc3f8f5c4b51379') in 0.0146437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412737 seconds.
+  path: Assets/Models/ship/Test/textures/Image_21.png
+  artifactKey: Guid(6e21772277b02e644bf013fdea264ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ship/Test/textures/Image_21.png using Guid(6e21772277b02e644bf013fdea264ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06a6c18c492bd39066bdf469321d091c') in 0.0206829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.310822 seconds.
+  path: Assets/Models/ship/Test/Image_19.png
+  artifactKey: Guid(928fc1df7d4524d45ad24ffad208bc33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ship/Test/Image_19.png using Guid(928fc1df7d4524d45ad24ffad208bc33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a982ec7cf904f7a874eea79775317a59') in 0.0151304 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
