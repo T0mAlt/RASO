@@ -460,3 +460,15 @@
 [2026-09-06T15:30:36.883Z] [DEBUG] log Relay->Editor communication is unblocked
 [2026-09-06T15:30:36.885Z] [INFO] log Unity client connected with ID: editor-30392-j44k0r (relay 1.0.12-build.99)
 [2026-09-06T15:30:36.886Z] [INFO] connection.established clientId=editor-30392-j44k0r port=9003
+[2026-09-06T16:20:39.358Z] [INFO] log Domain reload signal received from client editor-30392-j44k0r
+[2026-09-06T16:20:39.430Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-06T16:20:39.434Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-06T16:20:43.380Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-06T16:20:43.381Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-06T16:20:43.385Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-09-06T16:20:43.386Z] [WARN] connection.lost clientId=null
+[2026-09-06T16:20:43.387Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-09-06T16:20:43.397Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-09-06T16:21:23.506Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-09-06T16:21:23.508Z] [INFO] log Unity client connected with ID: editor-30392-1qti22 (relay 1.0.12-build.99)
+[2026-09-06T16:21:23.510Z] [INFO] connection.established clientId=editor-30392-1qti22 port=9003

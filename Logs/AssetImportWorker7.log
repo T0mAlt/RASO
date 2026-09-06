@@ -1,0 +1,1521 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 14188 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-09-06T16:09:26.2684746Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-06T16:09:26Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19152, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e809eab432b04b9083287aed7386c3a9
+  Correlation Id:          fe403366f82ed7eab7cb0cd09d5b3a1d
+  External correlation Id: 8293261876581028785
+  Machine Id:              Z+nX2y6ZWSikMPl3VXQ/kTlWk2M=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2026-09-06T16:09:26.3319976Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/Play4/game4
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+62695
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Play4/game4
+D:/Play4/game4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [1076]  Target information:
+
+Player connection [1076]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 3486029633 [EditorId] 3486029633 [Version] 1048832 [Id] WindowsEditor(7,TOM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1076]  * "[IP] 10.1.1.211 [Port] 0 [Flags] 2 [Guid] 3486029633 [EditorId] 3486029633 [Version] 1048832 [Id] WindowsEditor(7,TOM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1076] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.17 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Play4/game4/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.16.1656
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 9072442768393-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.013288 seconds.
+- Loaded All Assemblies, in  0.774 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 385 ms
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.185 seconds
+Domain Reload Profiling: 1952ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (344ms)
+				TypeCache.ScanAssembly (321ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1185ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1086ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (560ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.519 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-game4
+Refreshing native plugins compatible for Editor in 8.63 ms, found 4 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.663 seconds
+Domain Reload Profiling: 6175ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (2029ms)
+		LoadAssemblies (1081ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1087ms)
+			TypeCache.Refresh (916ms)
+				TypeCache.ScanAssembly (864ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3237ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (333ms)
+			ProcessInitializeOnLoadAttributes (2202ms)
+			ProcessInitializeOnLoadMethodAttributes (655ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9965 unused Assets / (21.5 MB). Loaded Objects now: 10818.
+Memory consumption went from 203.5 MB to 182.0 MB.
+Total: 81.502100 ms (FindLiveObjects: 22.059800 ms CreateObjectMapping: 3.173900 ms MarkObjects: 38.747800 ms  DeleteObjects: 17.518300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26063.332851 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Seagull_01.fbx
+  artifactKey: Guid(177d10de729e8a849807cedda7634cb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Seagull_01.fbx using Guid(177d10de729e8a849807cedda7634cb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acff1eb1f1dad279dc1398ecd4b1d1da') in 0.251707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Stone_Arch_01A.fbx
+  artifactKey: Guid(431557e101416054c981603bf42db567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Stone_Arch_01A.fbx using Guid(431557e101416054c981603bf42db567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f4fe733cc0ba26a431d4282d77192ca') in 0.0317602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Treasure_Chest_01A.prefab
+  artifactKey: Guid(c526f85b95167cb47b6e79d8654503a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Treasure_Chest_01A.prefab using Guid(c526f85b95167cb47b6e79d8654503a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19d5728b479f5cff9b7ea16082a4b292') in 0.0418634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Terrain/sandTexture.mat
+  artifactKey: Guid(8c2ca0928baf69a49983c6b989fd577c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Terrain/sandTexture.mat using Guid(8c2ca0928baf69a49983c6b989fd577c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd734a473ad54da150ac19321db8fb68c') in 0.0994748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Medium_09A.prefab
+  artifactKey: Guid(9d9fbe91c4fd05d4bb66df1a2f9cfb38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Medium_09A.prefab using Guid(9d9fbe91c4fd05d4bb66df1a2f9cfb38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f923d92481d904c35d443f70eee5aec9') in 0.0274053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Wood_Bucket_02A.fbx
+  artifactKey: Guid(47ff0aa6ed70b674a91fa60e93690dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Wood_Bucket_02A.fbx using Guid(47ff0aa6ed70b674a91fa60e93690dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df8370322feb0180990a1368a19ecae4') in 0.031042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Cliff_03A.prefab
+  artifactKey: Guid(53a55c5f7530b25429980f63c88460bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Cliff_03A.prefab using Guid(53a55c5f7530b25429980f63c88460bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd15e1a2a1e1d972097f38c8626f98a1c') in 0.0252438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plant_09A.fbx
+  artifactKey: Guid(363fd45f1e5c3084783732bf533c60c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plant_09A.fbx using Guid(363fd45f1e5c3084783732bf533c60c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7fadf88ac3a0fb56908694860a69e67') in 0.0376333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Wood_Bucket_01C.prefab
+  artifactKey: Guid(5f8c3940d3925a444bf627de5d269bbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Wood_Bucket_01C.prefab using Guid(5f8c3940d3925a444bf627de5d269bbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbeedb7d24dbaf1693c9b24b35dc6027') in 0.025844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Adventure Island/Terrain/TAI_Terrain_Sand_1C_D.tif
+  artifactKey: Guid(6d5925af5debb364182e4cde233619f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Terrain/TAI_Terrain_Sand_1C_D.tif using Guid(6d5925af5debb364182e4cde233619f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ba5310e004d8292794508dc4e4907e3') in 0.0784987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_01A.prefab
+  artifactKey: Guid(44f3d2eacfc1eaf41b287c25868c5035) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_01A.prefab using Guid(44f3d2eacfc1eaf41b287c25868c5035) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24bfe170829c92d196b441a172198df8') in 0.0248539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Ruins/TAI_Stone_Pillar_01A.prefab
+  artifactKey: Guid(74af9ceba9b3150468e0c0c0920c2602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Ruins/TAI_Stone_Pillar_01A.prefab using Guid(74af9ceba9b3150468e0c0c0920c2602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6e55b84fd4f41b63db6eb5c0f8237b7') in 0.0258203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Chain_01A.fbx
+  artifactKey: Guid(cf1b4cb66e519f54682fc42d9b52dcb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Chain_01A.fbx using Guid(cf1b4cb66e519f54682fc42d9b52dcb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a591ab6cd3b064d6579f1f2131f75cb') in 0.0367563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Palm_Trunk_01A.fbx
+  artifactKey: Guid(8cdd8643546808c46b6493470b89500d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Palm_Trunk_01A.fbx using Guid(8cdd8643546808c46b6493470b89500d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bee1dcd51b5db2cbf985931a7582f016') in 0.0334306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Vine_04A.fbx
+  artifactKey: Guid(338cd65e4e8696145bddd5138cda738f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Vine_04A.fbx using Guid(338cd65e4e8696145bddd5138cda738f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a7520e38e169669ec65e3b58387fbc1') in 0.0360292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Cloth_01B.prefab
+  artifactKey: Guid(3bc7d11a1382a4c4497251e62f08ee50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Cloth_01B.prefab using Guid(3bc7d11a1382a4c4497251e62f08ee50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c912b41434dfbabefb24731923820fa') in 0.0216524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Large_02A.prefab
+  artifactKey: Guid(77e07264df2c6344ea9980e1517e4453) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Large_02A.prefab using Guid(77e07264df2c6344ea9980e1517e4453) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3185e082221fe9b4861ec78fbf3d1d92') in 0.0218732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plant_18A.fbx
+  artifactKey: Guid(c204d148a61cc1a47a8623dff7f21a14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plant_18A.fbx using Guid(c204d148a61cc1a47a8623dff7f21a14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81cfc0383d9e3fd018be268f850e1696') in 0.0241063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Chair_02A.fbx
+  artifactKey: Guid(d254c64b13d191843855ab29c273ee10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Chair_02A.fbx using Guid(d254c64b13d191843855ab29c273ee10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccea25a7cd942279c0842f4378a644c3') in 0.0286962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Dirt_01A.prefab
+  artifactKey: Guid(73dd2237c90d71042aecf534825e2e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Dirt_01A.prefab using Guid(73dd2237c90d71042aecf534825e2e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb5ea434d9fc501ce59ddd0853f6b838') in 0.0204298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Animations
+  artifactKey: Guid(274cf72263b544a46b9bd3a74443f19b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Animations using Guid(274cf72263b544a46b9bd3a74443f19b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '462251ca5739404092297cd1911d9d9b') in 0.0189065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_01B.prefab
+  artifactKey: Guid(b5f5b4d6460d4154c9c0dad73ece1f6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_01B.prefab using Guid(b5f5b4d6460d4154c9c0dad73ece1f6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e20eb0ce7977562af0f656d395e5bf5') in 0.0247808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Shipwreck_01A_Module_1.prefab
+  artifactKey: Guid(e0904f1aa38b31245acfc21cf09c147b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Shipwreck_01A_Module_1.prefab using Guid(e0904f1aa38b31245acfc21cf09c147b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02ae02f74c7c6185fc0bed8fb62789f0') in 0.0273922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Adventure Island/Particles/Textures
+  artifactKey: Guid(19345845e03c218469a155c10e768c70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Particles/Textures using Guid(19345845e03c218469a155c10e768c70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdb989d312248677edee3175bf74772a') in 0.0182916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Gold_Coin_Stack_03A.prefab
+  artifactKey: Guid(d62071740cd5a0a419ae9a43c3eb06dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Gold_Coin_Stack_03A.prefab using Guid(d62071740cd5a0a419ae9a43c3eb06dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32d83f2bd7cdf7fce7a75f902259af74') in 0.0243542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Whale_Skeleton_Head_Top_01A.fbx
+  artifactKey: Guid(0848804e78163c840a5f932a06d3f82d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Whale_Skeleton_Head_Top_01A.fbx using Guid(0848804e78163c840a5f932a06d3f82d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '366fd1b5c11e5c2dd898fb7ba12413d9') in 0.038942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Spyglass_01A.fbx
+  artifactKey: Guid(2347dfe9a32434540b0430a7eac6432a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Spyglass_01A.fbx using Guid(2347dfe9a32434540b0430a7eac6432a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7572683062528a427632a99e115ccb15') in 0.0582931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_03A_Module_1.prefab
+  artifactKey: Guid(487f0d9e7f8b79746aa669deef70ee9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_03A_Module_1.prefab using Guid(487f0d9e7f8b79746aa669deef70ee9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0ad09431e68d092fc46f922f465a768') in 0.0221031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Bone_Pile_03A.prefab
+  artifactKey: Guid(5986fead8ff354b49a9a4857f9a68650) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Bone_Pile_03A.prefab using Guid(5986fead8ff354b49a9a4857f9a68650) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c739ac69a09d00d2084b9bafb39dc4c8') in 0.0238244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Grass_Patch_01A.prefab
+  artifactKey: Guid(72672b015d995b44abb23c77c8149306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Grass_Patch_01A.prefab using Guid(72672b015d995b44abb23c77c8149306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4a9a22c09d4b3d7caf5a8e50e0e2d3f') in 0.0221397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_02B.prefab
+  artifactKey: Guid(e8815fcc0d299bb4dbd00d8c2438f5ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_02B.prefab using Guid(e8815fcc0d299bb4dbd00d8c2438f5ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22a8953c0d5996e7942fc403a3cdc260') in 0.0241883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bush_04A.fbx
+  artifactKey: Guid(ddffbe2e07e6d4a47871fddea1587e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bush_04A.fbx using Guid(ddffbe2e07e6d4a47871fddea1587e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff65bcff0b238923b96168c2f7650d32') in 0.0306732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Adventure Island/Scenes/Demo_Scene_Grid.unity
+  artifactKey: Guid(224eaa5016cd77c4e82ba82094c053f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Scenes/Demo_Scene_Grid.unity using Guid(224eaa5016cd77c4e82ba82094c053f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '125701b268400d0a693b059635d6e1b1') in 0.0584846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Sack_01A.fbx
+  artifactKey: Guid(62a1060a49e0468459328c077c9c32c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Sack_01A.fbx using Guid(62a1060a49e0468459328c077c9c32c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '903de28a3b867f0a0d05e7aa46c02269') in 0.02653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bottle_03C.fbx
+  artifactKey: Guid(4a555750674bb6948bbffed44d007460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bottle_03C.fbx using Guid(4a555750674bb6948bbffed44d007460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40477e2f108f86eb27470817c1c443c6') in 0.0311375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Coconut_02A.fbx
+  artifactKey: Guid(8d60016b37baecc41916d4685eee9d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Coconut_02A.fbx using Guid(8d60016b37baecc41916d4685eee9d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61835590440d9d23797f3cdfdea6d59e') in 0.0310043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/URP Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(5b0b1a6cea4fb48ae9b377eaeaf9f6e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/URP Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(5b0b1a6cea4fb48ae9b377eaeaf9f6e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab1367cd2aa67ef1e2de8cd64f3d1b16') in 0.0689042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Raft_01A.prefab
+  artifactKey: Guid(7daee0a4efc2074459175e6c76e66a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Raft_01A.prefab using Guid(7daee0a4efc2074459175e6c76e66a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68a261d1c9009ba675cd9fa1fc3498a4') in 0.0279459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Log_02A.prefab
+  artifactKey: Guid(607bf3b6c4d30004684e206c975454a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Log_02A.prefab using Guid(607bf3b6c4d30004684e206c975454a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69ff21ed589bd11046fdec215fc2bb09') in 0.0267637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Table_01A.prefab
+  artifactKey: Guid(74334365b2256cd4f9f79907a6e3dc93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Table_01A.prefab using Guid(74334365b2256cd4f9f79907a6e3dc93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2fcba849f8e36e6cb52a47da590c0541') in 0.0275462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Small_Rock_04A.prefab
+  artifactKey: Guid(317b1ee2f26a4164fb4bef811a38b346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Small_Rock_04A.prefab using Guid(317b1ee2f26a4164fb4bef811a38b346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aaeefa635ed0348dce60e42330ba3e4b') in 0.0274808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Rock_Large_04A.fbx
+  artifactKey: Guid(93d333cd0ce10c546a1e574f82998066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Rock_Large_04A.fbx using Guid(93d333cd0ce10c546a1e574f82998066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c5abb4826b8190d75e4d0bbb9875f56') in 0.0556478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Whale_Skeleton_Head_Bottom_01A.fbx
+  artifactKey: Guid(07b4701e2b65b9c4783de5a4da40c324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Whale_Skeleton_Head_Bottom_01A.fbx using Guid(07b4701e2b65b9c4783de5a4da40c324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61c9676d44319ccfac59db17819278fd') in 0.0409908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Metal_Bar_01A.fbx
+  artifactKey: Guid(acf9b8660e0477e4096b3841c1f626eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Metal_Bar_01A.fbx using Guid(acf9b8660e0477e4096b3841c1f626eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de90dfed7cc1f294d8ffbc92021363bf') in 0.0319827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Sword_01A.fbx
+  artifactKey: Guid(777bf6a7ece03d74a993d1521ccbd728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Sword_01A.fbx using Guid(777bf6a7ece03d74a993d1521ccbd728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7db63b3fa90548e7a633fafd2e03f1fd') in 0.0357313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Cloth_04A.prefab
+  artifactKey: Guid(ba0ab335102b6804da23e9fca628c310) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Cloth_04A.prefab using Guid(ba0ab335102b6804da23e9fca628c310) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53d3992d9a68e1477174825ce580f1c4') in 0.0196438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Medium_01B.prefab
+  artifactKey: Guid(92e5516f2e18248429a875428c0d6a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Medium_01B.prefab using Guid(92e5516f2e18248429a875428c0d6a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab482cc549972229aa5d8c68eaa820dd') in 0.0199246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_17A.prefab
+  artifactKey: Guid(714e1e84156e1ef4db30e56d7351128c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_17A.prefab using Guid(714e1e84156e1ef4db30e56d7351128c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '236aa20fe3423481d0e17a0601f907e8') in 0.0194018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Models/Materials/TAI_Atlas_Cloth_1A.mat
+  artifactKey: Guid(bcaf3de9277c2e44caf2141224e1ef1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/Materials/TAI_Atlas_Cloth_1A.mat using Guid(bcaf3de9277c2e44caf2141224e1ef1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0896c9c92377be853384dc54bf349e0') in 0.0226079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Scripts/BirdManager.prefab
+  artifactKey: Guid(41998ac78a6537d47bc385ef8c638390) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Scripts/BirdManager.prefab using Guid(41998ac78a6537d47bc385ef8c638390) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '895413b470ef90500c2c6bfa17957a66') in 0.0427071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Wooden_Pillar_02A.fbx
+  artifactKey: Guid(d1155220f5701234eb6e377631b4c77f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Wooden_Pillar_02A.fbx using Guid(d1155220f5701234eb6e377631b4c77f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd801fdec8d854050ccc6b8eaad4909e8') in 0.0321189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Tree_02A.fbx
+  artifactKey: Guid(c54321cb79ad40b4f8c60b7c4f91d520) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Tree_02A.fbx using Guid(c54321cb79ad40b4f8c60b7c4f91d520) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '066cb4ef5bcf4f190402aeecb75d3d02') in 0.0372799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Underwater_Rock_Large_03A.fbx
+  artifactKey: Guid(a984eb0c43488ed4c9ced62a11feef80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Underwater_Rock_Large_03A.fbx using Guid(a984eb0c43488ed4c9ced62a11feef80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc432c1763e9f33cb4513fd2eff8a951') in 0.0277146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bottle_03A.fbx
+  artifactKey: Guid(586238a806f2c344daa7d686ffd932b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bottle_03A.fbx using Guid(586238a806f2c344daa7d686ffd932b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0281d9f73f003063c29f179272b2336a') in 0.0251821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Adventure Island/Textures/TAI_Grass_Patch_02A.tga
+  artifactKey: Guid(d01f451d1d4425147aaf241fcf3865cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Textures/TAI_Grass_Patch_02A.tga using Guid(d01f451d1d4425147aaf241fcf3865cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1303ac6f5c0bef638c46d7603465ba3c') in 0.0271581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Treasure_Chest_01A.fbx
+  artifactKey: Guid(4946fd99f166dd94a9e2dbf07e5ce70c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Treasure_Chest_01A.fbx using Guid(4946fd99f166dd94a9e2dbf07e5ce70c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59091bfd8555274e5038cf66d8edd7d0') in 0.037343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Rope_Vine_02B.fbx
+  artifactKey: Guid(1efa232a0e884134cadf18ad6add4e56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Rope_Vine_02B.fbx using Guid(1efa232a0e884134cadf18ad6add4e56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6779e335b403229325a63bfb31281566') in 0.0250162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Vine_03A.fbx
+  artifactKey: Guid(d6e94646c32ce3b4da769a89c1231f43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Vine_03A.fbx using Guid(d6e94646c32ce3b4da769a89c1231f43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b43a0d2da56ed51b6776858f3a5219b2') in 0.0247142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bottle_02C.fbx
+  artifactKey: Guid(dc54a959012956a47a1fa13520518127) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bottle_02C.fbx using Guid(dc54a959012956a47a1fa13520518127) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b96f8f89ef15d4390a53e87907e08a3e') in 0.0234935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Tankard_01A.fbx
+  artifactKey: Guid(ea6abd21382f3fa49915a1f5d02f7fd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Tankard_01A.fbx using Guid(ea6abd21382f3fa49915a1f5d02f7fd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '214df57e218460e328126a1198363719') in 0.0318392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Skull_01A.prefab
+  artifactKey: Guid(36e7555c75380ce4ab1fc86163026b91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Rock_Skull_01A.prefab using Guid(36e7555c75380ce4ab1fc86163026b91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8e4ab49681c7dbb5e36598e70cbb16a') in 0.0250734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Spine_Middle_02A.prefab
+  artifactKey: Guid(ad0cb529082e86e4685f395e6b6026a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Spine_Middle_02A.prefab using Guid(ad0cb529082e86e4685f395e6b6026a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4953d84ae1c80b63a9053c1076ab6eba') in 0.0266087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Paddle_02A.prefab
+  artifactKey: Guid(a3ae395fc03c9624390bb23fcc45513c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Paddle_02A.prefab using Guid(a3ae395fc03c9624390bb23fcc45513c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcad0226a15dcc20062a4aebfc94aba8') in 0.0255721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Boat_02B.fbx
+  artifactKey: Guid(7651b221a41cb1342a5a542452589d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Boat_02B.fbx using Guid(7651b221a41cb1342a5a542452589d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '050f8f821cebcc6a7b3faaef8ecbfa87') in 0.0246824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Pavement_Stones_Dust_01B.fbx
+  artifactKey: Guid(90a92455c9d0aae4d91ad5f148defe22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Pavement_Stones_Dust_01B.fbx using Guid(90a92455c9d0aae4d91ad5f148defe22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00acbf17d114d48c9905718944719b0d') in 0.0241679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Ruins/TAI_Pavement_Stones_02A.prefab
+  artifactKey: Guid(d11803ae5431dce4a951826b7df98e9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Ruins/TAI_Pavement_Stones_02A.prefab using Guid(d11803ae5431dce4a951826b7df98e9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e15db135a5ae64556d790d8895c8b276') in 0.0213138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Weapons/TAI_Spear_01A.prefab
+  artifactKey: Guid(ac93b875d359d1b4a98d0b8a5e0a3562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Weapons/TAI_Spear_01A.prefab using Guid(ac93b875d359d1b4a98d0b8a5e0a3562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f66ecd83d07ac5c876874396f243396') in 0.0239239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Cliff_02A.fbx
+  artifactKey: Guid(4983b51062e56ac438c453f89abdc44d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Cliff_02A.fbx using Guid(4983b51062e56ac438c453f89abdc44d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2a36ed9513822019ef8cc8dbf3093ee') in 0.0345923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Dirt_01A.fbx
+  artifactKey: Guid(4f5715b009ea69045b84233c8163b26f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Dirt_01A.fbx using Guid(4f5715b009ea69045b84233c8163b26f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb03d89573b29d8c49b0180b3400c13') in 0.0287721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Adventure Island/Particles/TAI_Fire_Quad_01A.prefab
+  artifactKey: Guid(0bd33c610a0912f4488f23bf0c24209b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Particles/TAI_Fire_Quad_01A.prefab using Guid(0bd33c610a0912f4488f23bf0c24209b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ace28d76f6f0ade40f4ae0e00060a7e8') in 0.0231558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Treasure_Chest_03A.prefab
+  artifactKey: Guid(d15e2aeb950288f47be6f3bb8bf54381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Treasure_Chest_03A.prefab using Guid(d15e2aeb950288f47be6f3bb8bf54381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e955d92e9a3a335dccb2ad0b2371f6b1') in 0.0244514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Arm_01A_Left.prefab
+  artifactKey: Guid(c677ffff569a3b44281be250ff71826b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Arm_01A_Left.prefab using Guid(c677ffff569a3b44281be250ff71826b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a34def7422c19cde6d72545306b567d7') in 0.0212125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Pavement_Stones_Dust_01A.fbx
+  artifactKey: Guid(3f1160617044e5748af2624b2db697a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Pavement_Stones_Dust_01A.fbx using Guid(3f1160617044e5748af2624b2db697a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bccd95db81b543dbb5d5178e0cc0ca5') in 0.0284564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Golden_Plate_01A.prefab
+  artifactKey: Guid(b1d3e44421b39e34bb03728b81799972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Treasure/TAI_Golden_Plate_01A.prefab using Guid(b1d3e44421b39e34bb03728b81799972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a340b2598ca2ba0b7abc2b58b05f655') in 0.0243617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plank_03A.fbx
+  artifactKey: Guid(e4eb84bca3de3a44d901d7959008e80e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plank_03A.fbx using Guid(e4eb84bca3de3a44d901d7959008e80e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '080ed67c83d7310f81e09c0d48625bf7') in 0.0319091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Toon Adventure Island/Scripts/Source/GlobalFlock.cs
+  artifactKey: Guid(c811c315e05cbb8438fce6436b79a7d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Scripts/Source/GlobalFlock.cs using Guid(c811c315e05cbb8438fce6436b79a7d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54c097b00f2784f4471e15c1f05bcd45') in 0.0193515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Gold_Coin_Stack_02A.fbx
+  artifactKey: Guid(bd51343c5c2044d428741cd1100082cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Gold_Coin_Stack_02A.fbx using Guid(bd51343c5c2044d428741cd1100082cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cfd64690d1760a3b264239db380b677') in 0.0285463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Cloth_02B.fbx
+  artifactKey: Guid(0bb2f0680721afd449aed23dbeceef56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Cloth_02B.fbx using Guid(0bb2f0680721afd449aed23dbeceef56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77b932412fd1fa94944f211d230d57c0') in 0.0195932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Fishing_Net_01A.fbx
+  artifactKey: Guid(c31a975616d732a4484e6d95c5509e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Fishing_Net_01A.fbx using Guid(c31a975616d732a4484e6d95c5509e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0beb4daa95725756682d94e337cd28d3') in 0.0260313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plant_11A.fbx
+  artifactKey: Guid(8b5b79474c1d719418c43b27393657a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plant_11A.fbx using Guid(8b5b79474c1d719418c43b27393657a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18c70f092c1e9e77041a25af1f48a14a') in 0.024123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Wood_Barrel_03A.fbx
+  artifactKey: Guid(95c570feb9fe226408db44633439cada) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Wood_Barrel_03A.fbx using Guid(95c570feb9fe226408db44633439cada) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99af66878c2679ae3cb037c9515d75fa') in 0.0284681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Adventure Island/Models/Materials/TAI_Terrain.mat
+  artifactKey: Guid(d806dd3c70ef23d47b29bcb310565c91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/Materials/TAI_Terrain.mat using Guid(d806dd3c70ef23d47b29bcb310565c91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52bd1b9cd48a799ad4d5cce6ef107468') in 0.0267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Grass_Patch_03A.prefab
+  artifactKey: Guid(6f30c9d4b80ae5942b43685ae34170cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Grass_Patch_03A.prefab using Guid(6f30c9d4b80ae5942b43685ae34170cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d9d1c3ebcdba0a390d6b1dd1b943c47') in 0.0202787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Shell_01A.fbx
+  artifactKey: Guid(0e21b2e31fbbefc4da4a0922eb0f4563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Shell_01A.fbx using Guid(0e21b2e31fbbefc4da4a0922eb0f4563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2703dd1f22972398cef2c8b92962d9df') in 0.0265538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_01A.prefab
+  artifactKey: Guid(66c0ddd124808924ba3d36c2c10861a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_01A.prefab using Guid(66c0ddd124808924ba3d36c2c10861a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26470123c39be06616c302475c4de0e1') in 0.0267839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Rope_02A.fbx
+  artifactKey: Guid(1072b8331f380794189e23a11099ee50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Rope_02A.fbx using Guid(1072b8331f380794189e23a11099ee50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9802610f96990b4eeda29d33bb0142cf') in 0.0303363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Anchor_01A.prefab
+  artifactKey: Guid(655ed11ca6dd32a4ea2d629969c642d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Anchor_01A.prefab using Guid(655ed11ca6dd32a4ea2d629969c642d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6839481b6f402857077b5acb8e8585d') in 0.0233229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plant_12A.fbx
+  artifactKey: Guid(e1ed4e7c28c14b34f98ea90f11b5d60e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plant_12A.fbx using Guid(e1ed4e7c28c14b34f98ea90f11b5d60e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef8ab3cdf5181db0204c75f007999a57') in 0.0325855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation
+  artifactKey: Guid(d348aaae15b18d54688964d2c6ff8077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation using Guid(d348aaae15b18d54688964d2c6ff8077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54b3fb9d4d5b6d484f0e6f69e65d75af') in 0.0158132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Animals/TAI_Shell_03B.prefab
+  artifactKey: Guid(f134f64bba89aea4db731b1111cdd2a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Animals/TAI_Shell_03B.prefab using Guid(f134f64bba89aea4db731b1111cdd2a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc5af8a964b56964e081b4343b48972f') in 0.023963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Bottle_02A.prefab
+  artifactKey: Guid(4969705df1f117b419c8ba5184ebff89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Bottle_02A.prefab using Guid(4969705df1f117b419c8ba5184ebff89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd46a67a5c09af05d1180b75ea286119') in 0.0328852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plank_02A.fbx
+  artifactKey: Guid(a088632dd2bb5e1419f265d9bb0cb266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plank_02A.fbx using Guid(a088632dd2bb5e1419f265d9bb0cb266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48f93d23405735dcf39fc367d8e16ec6') in 0.0299167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plant_03A.fbx
+  artifactKey: Guid(4a189fec348794c49a531f78c483bfb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plant_03A.fbx using Guid(4a189fec348794c49a531f78c483bfb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ade67d08201bdef66e3ce294007659ad') in 0.0295026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Weapons/TAI_Sword_02A.prefab
+  artifactKey: Guid(f3f1838828a843849995325c51f38eac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Weapons/TAI_Sword_02A.prefab using Guid(f3f1838828a843849995325c51f38eac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16cdd80beb038a10e1853f263efdd700') in 0.026953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Small_Rock_02A.fbx
+  artifactKey: Guid(0472006d0058664418e90771abe45a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Small_Rock_02A.fbx using Guid(0472006d0058664418e90771abe45a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4f52d1742ec4d280a549223054de7f9') in 0.0296024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Skeleton_06A.fbx
+  artifactKey: Guid(d3972ae0c2c7bb04e9286303556168cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Skeleton_06A.fbx using Guid(d3972ae0c2c7bb04e9286303556168cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8913bec1a0c0486a0aee9ec950230e94') in 0.0290389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Palm_Tree_Broken_01A.fbx
+  artifactKey: Guid(0d53d4740b418314fa5c94f4fcb5ff0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Palm_Tree_Broken_01A.fbx using Guid(0d53d4740b418314fa5c94f4fcb5ff0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac36fd8cd197eccf007abeaa3c1e3515') in 0.0318253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Ruins/TAI_Stone_Wall_02A.prefab
+  artifactKey: Guid(bee6ee5448ca7a746aaa761137a7ce6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Ruins/TAI_Stone_Wall_02A.prefab using Guid(bee6ee5448ca7a746aaa761137a7ce6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdcedb9621d95a15a30c1065a4936e81') in 0.020496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Wood_Bucket_01B.fbx
+  artifactKey: Guid(5e2b0f7d439a0d34e9addf6c14481b88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Wood_Bucket_01B.fbx using Guid(5e2b0f7d439a0d34e9addf6c14481b88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa5dd4d4f255759140bcd36acb18e2c5') in 0.0228434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Fishing_Net_01A.prefab
+  artifactKey: Guid(014d30e4836bced438d6a10dd1a75ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Fishing_Net_01A.prefab using Guid(014d30e4836bced438d6a10dd1a75ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f12f018dfd5625e00f6acb6a6b36e103') in 0.0229796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Spine_Front_02A.prefab
+  artifactKey: Guid(a5e0c6a1630f2004884bb058ac37799c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Spine_Front_02A.prefab using Guid(a5e0c6a1630f2004884bb058ac37799c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '452fb78040229ff7ed5de93116503e7d') in 0.0207355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Metal_Cage_01A.prefab
+  artifactKey: Guid(8bc2e15c0fad89d489c07239bd96ed76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Metal_Cage_01A.prefab using Guid(8bc2e15c0fad89d489c07239bd96ed76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c32c67af4291b8919fbc6b0444316be9') in 0.026415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 99
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Adventure Island/Animations/TAI_Seagull_01_Idle_02_Fast.controller
+  artifactKey: Guid(8b9c0c7b57cac2d49bacca3e5a49b64c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Animations/TAI_Seagull_01_Idle_02_Fast.controller using Guid(8b9c0c7b57cac2d49bacca3e5a49b64c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddb68c0f9620e9cacbc7a3039097d86f') in 0.0192341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Grass_Patch_02A.prefab
+  artifactKey: Guid(a44c1e63499869e458426a1bdab4ccf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Grass_Patch_02A.prefab using Guid(a44c1e63499869e458426a1bdab4ccf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5dc4b28fe8f868510a4273818615f1a') in 0.0208559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_04A.prefab
+  artifactKey: Guid(e0e569bae369f6c4ba3d5a67d63adbd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_04A.prefab using Guid(e0e569bae369f6c4ba3d5a67d63adbd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41f00d9cb47a92364d919db513807976') in 0.01876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Adventure Island/Animations/TAI_Seagull_01_Land.controller
+  artifactKey: Guid(e2ad320223fa3e94d880fb326cdf368e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Animations/TAI_Seagull_01_Land.controller using Guid(e2ad320223fa3e94d880fb326cdf368e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45eeb6ab2d3c2c4dd4e3086a01cc91d6') in 0.0158159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Wood_Crate_03A.fbx
+  artifactKey: Guid(2c7d89ee75eb08a46bd9f459f8c81799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Wood_Crate_03A.fbx using Guid(2c7d89ee75eb08a46bd9f459f8c81799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f5b0cccdabae13cafa5cd70fdf253f8') in 0.0375963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Bush_04A.prefab
+  artifactKey: Guid(9729a49852a1b614b98f036dae5578e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Bush_04A.prefab using Guid(9729a49852a1b614b98f036dae5578e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '832502488e930fadfe9745e896eb0296') in 0.0264537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Swordfish_Bite_01A.fbx
+  artifactKey: Guid(34f6ea7e2ce1595409288a7e11b55ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Swordfish_Bite_01A.fbx using Guid(34f6ea7e2ce1595409288a7e11b55ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b353c6450d0f6320453242c0ce62ac65') in 0.0295632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Fishing_Net_03A.fbx
+  artifactKey: Guid(69817dcfb47dfa34db9d7de99f645cef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Fishing_Net_03A.fbx using Guid(69817dcfb47dfa34db9d7de99f645cef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2dcdd37dc8e0002c2897f9b94fb3c254') in 0.0302539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bottle_01A.fbx
+  artifactKey: Guid(da12a608f64c71b46b12fe2d196ce06f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bottle_01A.fbx using Guid(da12a608f64c71b46b12fe2d196ce06f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bd2b6c0c0b2afecbaba5c12e739b824') in 0.0232855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Rock_Large_06A.fbx
+  artifactKey: Guid(0198eb2f05ba0554ba89d68f7378c605) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Rock_Large_06A.fbx using Guid(0198eb2f05ba0554ba89d68f7378c605) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53ff4303e3c1052ded5d7d8020ffecb8') in 0.0298732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Palm_Trunk_Stack_01A.fbx
+  artifactKey: Guid(c6052e9f1a5b6024683957a87a527726) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Palm_Trunk_Stack_01A.fbx using Guid(c6052e9f1a5b6024683957a87a527726) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f3e0568528b48156b73c12059fb5d04') in 0.0267972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Shipwreck_01A_Module_2.fbx
+  artifactKey: Guid(7099cc7fac3535d4f910efea83db89ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Shipwreck_01A_Module_2.fbx using Guid(7099cc7fac3535d4f910efea83db89ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba54a403675cc6beb336939b733d380a') in 0.0369337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Terrain/TAI_Terrain_Sand_1A_N.tif
+  artifactKey: Guid(65c84edb6bcd7874792d69cc71be3584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Terrain/TAI_Terrain_Sand_1A_N.tif using Guid(65c84edb6bcd7874792d69cc71be3584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54b597fe57ce0fd4f5d8acb439bace07') in 0.03679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Fishing_Net_04A.fbx
+  artifactKey: Guid(c41850a1024274e40abce272e5fcdb92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Fishing_Net_04A.fbx using Guid(c41850a1024274e40abce272e5fcdb92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07e59c70c18bfabedd249733b1f4d8ff') in 0.0261384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Cauldron_01A.fbx
+  artifactKey: Guid(83acfcc8c5bb77d4886181fe5e2d0cc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Cauldron_01A.fbx using Guid(83acfcc8c5bb77d4886181fe5e2d0cc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd3890e57db66d488e7cefb63311dcde') in 0.0269989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bed_01A.fbx
+  artifactKey: Guid(df8ff0bfbf4b1804ebd9ba34ed9b7a6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bed_01A.fbx using Guid(df8ff0bfbf4b1804ebd9ba34ed9b7a6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bfa56857d0ea242b1c1dd09e797b9e6') in 0.0330775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Campfire_01A.prefab
+  artifactKey: Guid(b8f5b1cb54d31654aa774bdef6fece8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Campfire_01A.prefab using Guid(b8f5b1cb54d31654aa774bdef6fece8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a00e366926761776e93bb0fbb3ad59e1') in 0.0217427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Adventure Island/Animations/TAI_Seagull_01_Fly_Slow.controller
+  artifactKey: Guid(73a3f8ca4651de048acd66a5fda0506a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Animations/TAI_Seagull_01_Fly_Slow.controller using Guid(73a3f8ca4651de048acd66a5fda0506a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a878fe88c1ae54fd54281551eb1fc2f2') in 0.0213994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Underwater_Plant_02A.fbx
+  artifactKey: Guid(33e8f7d0b7525144fa7e22806c03cb89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Underwater_Plant_02A.fbx using Guid(33e8f7d0b7525144fa7e22806c03cb89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30bddaf97fd854de4a03f9c3327dea35') in 0.0258376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Golden_Plate_01A.fbx
+  artifactKey: Guid(e7fdca582fe3f68419ea1165720261da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Golden_Plate_01A.fbx using Guid(e7fdca582fe3f68419ea1165720261da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b26198d62c6d3b90db359fe48dbb88ea') in 0.0254251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Cloth_03A.prefab
+  artifactKey: Guid(34574523a1134054f8ea4a91dc2a37cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Cloth_03A.prefab using Guid(34574523a1134054f8ea4a91dc2a37cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d0cc40a9f9022a23aff5616912cd9d1') in 0.0231704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_06A.prefab
+  artifactKey: Guid(97876db2776f32e43871730fbfdcf493) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Plant_06A.prefab using Guid(97876db2776f32e43871730fbfdcf493) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a36470d8848de0596eafe1fea20a05e3') in 0.0220495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Pier_Bollard_01A.prefab
+  artifactKey: Guid(04084e98c9e0a9e42a3c94a899a117d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Pier_Bollard_01A.prefab using Guid(04084e98c9e0a9e42a3c94a899a117d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb1044c90e5c464dd08d7f01ddf12942') in 0.7278797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_02B.prefab
+  artifactKey: Guid(4263131f07f9a6d4f98c94d1e7cc8480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_02B.prefab using Guid(4263131f07f9a6d4f98c94d1e7cc8480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6db0cf5a18e035bd0ad94ea9c1efc82c') in 0.0202379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Treasure_Map_02A.fbx
+  artifactKey: Guid(a4ab7a5790626f044b2a270f10c75827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Treasure_Map_02A.fbx using Guid(a4ab7a5790626f044b2a270f10c75827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '209ac63f20a8c1d958e6d8ddb2a8f11d') in 0.029056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_03A_Module_1.prefab
+  artifactKey: Guid(487f0d9e7f8b79746aa669deef70ee9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Prefabs/Nautical/TAI_Boat_03A_Module_1.prefab using Guid(487f0d9e7f8b79746aa669deef70ee9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab12ec740f9451ea4c967c53b9156c9d') in 0.0289991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Treasure
+  artifactKey: Guid(4b314fa3966bb674fab6844f4e0cfdb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Treasure using Guid(4b314fa3966bb674fab6844f4e0cfdb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4ed5daf8fcff74215b3c17e23494c2b') in 0.0140681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Underwater_Rock_Large_01A.fbx
+  artifactKey: Guid(951d9b52b9e354e4f80ec76ae2d039a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Underwater_Rock_Large_01A.fbx using Guid(951d9b52b9e354e4f80ec76ae2d039a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99cb776ad3c9d56f19da46b0a029808d') in 0.0308905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Wood_Crate_02B.prefab
+  artifactKey: Guid(f1ffba3e7d59e0940b8ade857dc84cfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Wood_Crate_02B.prefab using Guid(f1ffba3e7d59e0940b8ade857dc84cfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04cf0b41755512aaa71eb131a98203b0') in 0.0231089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Book_01C.prefab
+  artifactKey: Guid(f720acbc5e1d7004e9189809801d68b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Book_01C.prefab using Guid(f720acbc5e1d7004e9189809801d68b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62d47929c3a9cdb577985494089305fe') in 0.0266044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Vine_06A.prefab
+  artifactKey: Guid(21146cea27d629d4f8177078a0b2d8bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Plants/TAI_Vine_06A.prefab using Guid(21146cea27d629d4f8177078a0b2d8bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39c7d3c045df21f013c380e239f2b5c2') in 0.0218765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Cloth_03A.fbx
+  artifactKey: Guid(a2a42a572deb8c14fbdd55609d760177) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Cloth_03A.fbx using Guid(a2a42a572deb8c14fbdd55609d760177) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2546ecb106eac9695e76a030598f004c') in 0.0267854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Wood_Bucket_01A.fbx
+  artifactKey: Guid(2db34851890bd5641b79356184d30cfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Wood_Bucket_01A.fbx using Guid(2db34851890bd5641b79356184d30cfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5f1248f1886e2586c25e85d638ff1de') in 0.0267634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Adventure Island/Terrain/New Material.mat
+  artifactKey: Guid(4ffb3e20cc3f0864ab178f61fae330cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Terrain/New Material.mat using Guid(4ffb3e20cc3f0864ab178f61fae330cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f12d8d6bf752d3f348fc7ba412ec165') in 0.0286962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Adventure Island/Terrain/Layer_TAI_Terrain_Sand_1C.terrainlayer
+  artifactKey: Guid(c1aab09fbfd7e2146977198b13d57cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Terrain/Layer_TAI_Terrain_Sand_1C.terrainlayer using Guid(c1aab09fbfd7e2146977198b13d57cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f667de25a19351f5ad2e74bc6e4289c8') in 0.030646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Spine_Back_01A.prefab
+  artifactKey: Guid(93da56dc95f50ae4dbe52e4c96b553ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Animals/TAI_Whale_Skeleton_Spine_Back_01A.prefab using Guid(93da56dc95f50ae4dbe52e4c96b553ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11b4c42a000e97ba2ffbf8dd3319f32c') in 0.0254389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Whale_Skeleton_Spine_Front_02A.fbx
+  artifactKey: Guid(5b4a5548c11ea8949a116cb2ad8f827d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Whale_Skeleton_Spine_Front_02A.fbx using Guid(5b4a5548c11ea8949a116cb2ad8f827d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2ae8f62fc4b44d79af446374bd5d626') in 0.0359108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Bottle_04A.prefab
+  artifactKey: Guid(2115208f9d38b3545b333faec6bbe6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Bottle_04A.prefab using Guid(2115208f9d38b3545b333faec6bbe6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfcb615ffab195921fef55c52cb63922') in 0.0346336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Wood_Bucket_01A.prefab
+  artifactKey: Guid(435ef24123c97e840a4be3db7422f4de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Wood_Bucket_01A.prefab using Guid(435ef24123c97e840a4be3db7422f4de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c02be8b129092a8ad8585aa67ee13ead') in 0.0241432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Toon Adventure Island/Scripts/FishManager.prefab
+  artifactKey: Guid(979ea4d877030d64a91cd5941f57aea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Scripts/FishManager.prefab using Guid(979ea4d877030d64a91cd5941f57aea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cd9af1d5371a3030c8889f6d53a3289') in 0.0304758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 117
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Props/TAI_Coconut_01A.prefab
+  artifactKey: Guid(667cf522f942cdd47b675dbbfbb9d379) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Props/TAI_Coconut_01A.prefab using Guid(667cf522f942cdd47b675dbbfbb9d379) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eaef24bae9c738c96fc98215a6c81e1b') in 0.0213043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plant_19A.fbx
+  artifactKey: Guid(b5b0ef5bd492a2a409a5ab7b8c018f6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plant_19A.fbx using Guid(b5b0ef5bd492a2a409a5ab7b8c018f6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7412d625e734c51d3cef799f806501ff') in 0.0305836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Book_01A.fbx
+  artifactKey: Guid(a3679380352a0604aa7410915efb2d78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Book_01A.fbx using Guid(a3679380352a0604aa7410915efb2d78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'defc69ffd83fbfd6a1af9b70e611d5b4') in 0.0328094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks
+  artifactKey: Guid(7d16c37e8334db84b85236936a1d9c15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks using Guid(7d16c37e8334db84b85236936a1d9c15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '192d915df45b9b3da4cf45dd40119328') in 0.0175183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Rock_Medium_07B.fbx
+  artifactKey: Guid(f96d7d41dc9f87c44874a10d9a6c40cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Rock_Medium_07B.fbx using Guid(f96d7d41dc9f87c44874a10d9a6c40cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'daee10021e1c56f0faf330e407e839eb') in 0.0324206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Plank_01A.fbx
+  artifactKey: Guid(2226435be0bba4a4caf7c2b1cd5b7d00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Plank_01A.fbx using Guid(2226435be0bba4a4caf7c2b1cd5b7d00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f40cccc48647b2abffcbae78f476f521') in 0.0311672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Stone_Pillar_01A.fbx
+  artifactKey: Guid(fba846ad2e84805438b32e1c253b34fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Models/TAI_Stone_Pillar_01A.fbx using Guid(fba846ad2e84805438b32e1c253b34fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9478368688b7f1f328fb15b5f2a0cadd') in 0.0322525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_Broken_01A.prefab
+  artifactKey: Guid(1370f0a53bc76ce4f9353f66fc7a8620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_Broken_01A.prefab using Guid(1370f0a53bc76ce4f9353f66fc7a8620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0859a94a9315df8d9efdf9cff3b66274') in 0.0203626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Stone_Slab_03A.prefab
+  artifactKey: Guid(1739834db692aee4d8c2a415a27e4ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Toon Adventure Island/Prefabs/Rocks/TAI_Stone_Slab_03A.prefab using Guid(1739834db692aee4d8c2a415a27e4ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2911c0bc8a9f471cbc166e0d456a9e4c') in 0.0249442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.252353 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bed_01B.fbx
+  artifactKey: Guid(88fc75c9c91ed7346ba2fcf8f888ab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bed_01B.fbx using Guid(88fc75c9c91ed7346ba2fcf8f888ab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '434541f3d1f74169fb65515c639be73c') in 0.1663408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Book_01A.fbx
+  artifactKey: Guid(a3679380352a0604aa7410915efb2d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/TAI_Book_01A.fbx using Guid(a3679380352a0604aa7410915efb2d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c2529767cf10d0edea3aeb8e6fe4cb') in 0.1239747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bone_Pile_03A.fbx
+  artifactKey: Guid(0275ffc6c27746e42a1a843c6b4a4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bone_Pile_03A.fbx using Guid(0275ffc6c27746e42a1a843c6b4a4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9486788274732fe0b1ece60dd39b6896') in 0.070755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bone_Pile_04A.fbx
+  artifactKey: Guid(b2e5de734f32a344fb4bcd0b69e452fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bone_Pile_04A.fbx using Guid(b2e5de734f32a344fb4bcd0b69e452fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31a914c5edd11a867d49c398c387a9dc') in 0.0607847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon Adventure Island/Models/TAI_Bottle_01A.fbx
+  artifactKey: Guid(da12a608f64c71b46b12fe2d196ce06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/TAI_Bottle_01A.fbx using Guid(da12a608f64c71b46b12fe2d196ce06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e53e08b22290ab3d28b705faf29dd0c2') in 0.0738598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Adventure Island/Models/Materials/TAI_Atlas_Vegetation_1A.mat
+  artifactKey: Guid(ae65e5fc361082c44af418002112c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/Materials/TAI_Atlas_Vegetation_1A.mat using Guid(ae65e5fc361082c44af418002112c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47919386c694c5a4606fd407f05c3abb') in 0.0548989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Adventure Island/Models/Materials/TAI_Glass_1A.mat
+  artifactKey: Guid(c2fee4784d95aa04bb29a83a424e7720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/Materials/TAI_Glass_1A.mat using Guid(c2fee4784d95aa04bb29a83a424e7720) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db466aaa8339df88c944a004bf03e2ab') in 0.0223485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Toon Adventure Island/Models/Materials/TAI_Grass_2A.mat
+  artifactKey: Guid(fa2734c61639a6d42b42b6bcdccd7c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/Materials/TAI_Grass_2A.mat using Guid(fa2734c61639a6d42b42b6bcdccd7c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7fbb74163488241863c518551b4483c') in 0.028211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Toon Adventure Island/Models/Materials/TAI_Grass_3B.mat
+  artifactKey: Guid(652fdda5ef5965d44b42c45df0461de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/Materials/TAI_Grass_3B.mat using Guid(652fdda5ef5965d44b42c45df0461de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5c4f5009febc88d764c1fbc1dc2dcf2') in 0.0339503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Toon Adventure Island/Models/Materials/TAI_Fire_1B.mat
+  artifactKey: Guid(7bce32181fccc1a48b91b275d786bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Adventure Island/Models/Materials/TAI_Fire_1B.mat using Guid(7bce32181fccc1a48b91b275d786bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a6dcbf8026107f5f0329259d1b126b') in 7.5991653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

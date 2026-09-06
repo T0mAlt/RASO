@@ -43,8 +43,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 4c3ae0145e1afb8479fc943d1ab34d3a, type: 3}
+        m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -67,8 +67,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 4c3ae0145e1afb8479fc943d1ab34d3a, type: 3}
+        m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -176,7 +176,7 @@ Material:
     - _RimSize: 8.07
     - _Rimfalloff: 2.4
     - _ShallowColorDepth: 35.7
-    - _Smoothness: 0.5
+    - _Smoothness: 0.196
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
@@ -200,8 +200,8 @@ Material:
     - _ZWrite: 0
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0.3097188, g: 0.754717, b: 0.72999483, a: 0.5176471}
-    - _Color: {r: 0.30971876, g: 0.75471693, b: 0.7299948, a: 0.5176471}
+    - _BaseColor: {r: 0.1490565, g: 0.5042467, b: 1, a: 0.83137256}
+    - _Color: {r: 0.14905646, g: 0.50424665, b: 1, a: 0.83137256}
     - _DeepColor: {r: 0.12428801, g: 0.46226418, b: 0.43376014, a: 1}
     - _EdgeColor: {r: 1, g: 0, b: 0, a: 1}
     - _EdgeFoamColor: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
